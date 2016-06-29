@@ -80,6 +80,16 @@ angular.module('starter.controllers', [])
 })
 
 
+  
+.controller('searchCtrl', function($scope) {
+
+})
+
+
+.controller('sellCtrl', function($scope) {
+
+})
+
 
 
 
