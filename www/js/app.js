@@ -25,6 +25,15 @@ angular.module('starter', ['ionic', 'starter.controllers','starter.services','fi
 .config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
 
+    .state('index', {
+      url: '/index',
+      views: {
+        '': {
+          templateUrl: 'templates/login.html'
+        }
+      }
+    })
+
     .state('app', {
     url: '/app',
     abstract: true,
@@ -80,38 +89,37 @@ angular.module('starter', ['ionic', 'starter.controllers','starter.services','fi
       }
     })
 
+    .state('app.searchBar', {
+      url: '/searchbar',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/searchBar.html'
+        }
+      }
+    })
+
+    .state('app.sell', {
+      url: '/sell',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/sell.html'
+        }
+      }
+    })
+
+
+
     .state('app.login', {
       url: '/login',
       views: {
         'menuContent': {
           templateUrl: 'templates/login.html',
-          controller: 'signUpCtrl'
+          controller: 'loginTest'
         }
       }
     })
 
 
-
-    .state('sell', {
-      url: '/sell',
-      views: {
-        'menuContent': {
-          templateUrl: 'templates/sell.html',
-          controller: 'sellCtrl'
-        }
-      }
-    })
-
-
-    .state('search', {
-      url: '/search',
-      views: {
-        'menuContent': {
-          templateUrl: 'templates/searchBar.html',
-          controller: 'searchCtrl'
-        }
-      }
-    })
 
 
 

@@ -50,8 +50,11 @@ angular.module('starter.controllers', [])
 })
 
   //this is just a test controller to allow the login to move to the next page
-  .controller('loginTest', function($scope) {
+  .controller('loginTest', function ($scope, $location) {
 
+    $scope.login = function() {
+      $location.path('/app/main');
+    };
   })
 
 
@@ -80,7 +83,7 @@ angular.module('starter.controllers', [])
 })
 
 
-  
+
 .controller('searchCtrl', function($scope) {
 
 })
