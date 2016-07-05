@@ -1,1 +1,52 @@
 /* Empty. Add your own CSS if you like */
+.button.button-positive.login {
+	border-color: transparent;
+	background-color: #BF4B60;
+	color: #fff;
+	min-height: 52px !important;
+	border-radius: 17px 17px 17px 17px;
+	/*width:75%;*/
+}
+
+.item.item-input.login {
+	border-radius: 25px 25px 25px 25px;
+	background-color: #535A79;
+
+}
+
+.item.item-select.login {
+	border-radius: 25px 25px 25px 25px;
+	background-color: #535A79;
+}
+
+.input-label.login {
+	color:white;
+}
+
+.item {
+	border:0;
+	margin:10px;
+	background-color: transparent;
+}
+
+.background {
+	background-color: #3E4463;
+}
+
+.padding > .list .item:first-child {
+	border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.padding > .list .item:last-child {
+	border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.has-header {
+}
+
+.item-select select {
+	background:transparent;
+	color:#fff;
+}

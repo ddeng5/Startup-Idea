@@ -5,21 +5,21 @@
       <button class="button button-clear" ng-click="closeLogin()">Close</button>
     </div>
   </ion-header-bar>
-  <ion-content>
+  <ion-content class="background">
     <form ng-submit="doLogin()">
       <div class="list">
-        <label class="item item-input">
-          <span class="input-label">Username</span>
+        <label class="item item-input login">
+          <span class="input-label login">Username</span>
           <input type="text" ng-model="loginData.username">
         </label>
-        <label class="item item-input">
-          <span class="input-label">Password</span>
+        <label class="item item-input login">
+          <span class="input-label login">Password</span>
           <input type="password" ng-model="loginData.password">
         </label>
 
         <!-- ui-sref is a temporary fix to navigate past the login screen -->
         <label class="item">
-          <button class="button button-block button-positive" type="submit" ng-click="login()">Log in</button>
+          <button class="button button-block button-positive login" type="submit" ng-click="login()">Log in</button>
         </label>
 
       </div>
