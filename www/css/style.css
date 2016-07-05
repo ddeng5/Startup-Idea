@@ -1,26 +1,10 @@
 /* Empty. Add your own CSS if you like */
-.button.button-positive.login {
+.button.button-positive.retro {
 	border-color: transparent;
 	background-color: #BF4B60;
 	color: #fff;
-	min-height: 52px !important;
 	border-radius: 17px 17px 17px 17px;
 	/*width:75%;*/
-}
-
-.item.item-input.login {
-	border-radius: 25px 25px 25px 25px;
-	background-color: #535A79;
-
-}
-
-.item.item-select.login {
-	border-radius: 25px 25px 25px 25px;
-	background-color: #535A79;
-}
-
-.input-label.login {
-	color:white;
 }
 
 .item {
@@ -49,4 +33,25 @@
 .item-select select {
 	background:transparent;
 	color:#fff;
+}
+
+.range input {
+	background-size: 99% 5px;
+}
+
+.white {
+	color:white;
+}
+
+.item-input-curved {
+	border-radius: 25px 25px 25px 25px;
+	background-color: #535A79;
+}
+
+.retro {
+	border-color: transparent;
+	background-color: #BF4B60;
+	color: #fff;
+	border-radius: 17px 17px 17px 17px;
+	/*width:75%;*/
 }
