@@ -22,7 +22,23 @@
 
 .button.button-positive.retro.red {
 	border-color: transparent;
-	background-color: #BF4B60;
+	background-color: #bf4b60;
+	color: #fff;
+	border-radius: 17px 17px 17px 17px;
+	/*width:75%;*/
+}
+
+.button.button-positive.retro.pink {
+	border-color: transparent;
+	background-color: #FF3366;
+	color: #fff;
+	border-radius: 17px 17px 17px 17px;
+	/*width:75%;*/
+}
+
+.button.button-positive.retro.green{
+	border-color: transparent;
+	background-color:#33CD5F;
 	color: #fff;
 	border-radius: 17px 17px 17px 17px;
 	/*width:75%;*/
@@ -118,4 +134,64 @@ input[type="color"] {
 
 .item-complex .item-content, .item-radio .item-content {
 	background-color: transparent;
+}
+
+
+
+/*icons*/
+
+/*div.icon1 {
+	/* top | right| bottom| left*//*
+    margin: 20px,100px,10px,20px;
+	float: left
+	background-color: #262A3F;
+
+	
+}
+
+
+
+
+div.icon2 {
+    margin-right: 20px,20px,10px,100px;
+	float:right
+	background-color :#262A3F;
+}
+*/
+
+
+
+section{
+	width:100%
+
+
+}
+.left-half {
+
+  float: left;
+  width: 50%;
+}
+.right-half {
+
+  float: left;
+  width: 50%;
+}
+
+article {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  padding: 1rem;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+h1{
+	font-size: 20px
+}
+
+h2{
+	font-size: 30px
+}
+div.auction-buttons{
+
 }

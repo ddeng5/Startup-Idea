@@ -107,6 +107,14 @@ angular.module('starter', ['ionic', 'starter.controllers','starter.services','fi
       }
     })
 
+ .state('app.auction', {
+      url: '/auction',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/auction.html'
+        }
+      }
+    })
 
 
     .state('app.login', {
