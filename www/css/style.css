@@ -5,9 +5,20 @@
 
 .blue-retro { background-color: #3E4463; }
 
-.bg-red { background-color: #BF4B60; }
+.bg-red { background-color: #BF4B60; } /*  Main Sell Button Colour*/
 
-.bg-blue { background-color: #262A3F; }
+.bg-blue { background-color: #262A3F; } /* Dark Blue Colour (Header Bar) */
+
+.background {
+	background-color: #3E4463;
+}
+
+/* BUTTONS */
+.retro-button {
+	border-color: transparent;
+	color: #fff;
+	border-radius: 17px 17px 17px 17px;
+}
 
 .button.button-positive.retro.red {
 	border-color: transparent;
@@ -28,10 +39,6 @@
 .item {
 	border:0;
 	background-color: transparent;
-}
-
-.background {
-	background-color: #3E4463;
 }
 
 .padding > .list .item:first-child {
