@@ -1,23 +1,13 @@
-/* Empty. Add your own CSS if you like */
+/* COLOURS */
+.white { color:white; }
 
-.white {
-	color:white;
-}
+.cyan { color:#60A7A9; }
 
-.cyan {
-	color:#60A7A9;
-}
+.blue-retro { background-color: #3E4463; }
 
-.red {
-	background-color: #BF4B60;
-}
+.bg-red { background-color: #BF4B60; }
 
-.blue-retro {
-	background-color: #3E4463;
-}
-.bg-blue {
-	background-color: #262A3F;
-}
+.bg-blue { background-color: #262A3F; }
 
 .button.button-positive.retro.red {
 	border-color: transparent;
@@ -79,13 +69,6 @@
 	border-radius: 25px 25px 25px 25px;
 	background-color: #535A79;
 	margin:10px;
-}
-
-.retro {
-	border-color: transparent;
-	color: #fff;
-	border-radius: 17px 17px 17px 17px;
-	/*width:75%;*/
 }
 
 .nav {
