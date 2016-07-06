@@ -1,7 +1,35 @@
 /* Empty. Add your own CSS if you like */
-.button.button-positive.retro {
+
+.white {
+	color:white;
+}
+
+.cyan {
+	color:#60A7A9;
+}
+
+.red {
+	background-color: #BF4B60;
+}
+
+.blue-retro {
+	background-color: #3E4463;
+}
+.bg-blue {
+	background-color: #262A3F;
+}
+
+.button.button-positive.retro.red {
 	border-color: transparent;
 	background-color: #BF4B60;
+	color: #fff;
+	border-radius: 17px 17px 17px 17px;
+	/*width:75%;*/
+}
+
+.button.button-positive.retro.cyan{
+	border-color: transparent;
+	background-color:#60A7A9;
 	color: #fff;
 	border-radius: 17px 17px 17px 17px;
 	/*width:75%;*/
@@ -47,18 +75,6 @@
 	background-size: 99% 5px;
 }
 
-.white {
-	color:white;
-}
-
-.orange {
-	color:#60A7A9;
-}
-
-.bg-blue {
-	background-color: #262A3F;
-}
-
 .item-input-curved {
 	border-radius: 25px 25px 25px 25px;
 	background-color: #535A79;
@@ -67,7 +83,6 @@
 
 .retro {
 	border-color: transparent;
-	background-color: #BF4B60;
 	color: #fff;
 	border-radius: 17px 17px 17px 17px;
 	/*width:75%;*/
