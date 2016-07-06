@@ -2,22 +2,22 @@
     <ion-content padding="true" class="has-header">
         <form id="signUp-form3" class="list" ng-submit="add()">
             <label class="item item-input item-input-curved" id="signUp-input2">
-                <span class="input-label white">Name</span>
+                <span class="input-label signup white">Name</span>
                 <input type="text" ng-model="person.name" placeholder="">
             </label>
             <label class="item item-input item-input-curved" id="signUp-input3">
-                <span class="input-label white">Cell</span>
+                <span class="input-label signup white">Cell</span>
                 <input type="tel" ng-model="person.phone" placeholder="">
             </label>
             <label class="item item-input item-input-curved" id="signUp-input4">
-                <span class="input-label white">Email</span>
+                <span class="input-label signup white">Email</span>
                 <input type="email" ng-model="person.email" placeholder="">
             </label>
             <label class="item item-input item-input-curved" id="signUp-input5">
-                <span class="input-label white">City</span>
-                <input type="text" ng-model="person.city" placeholder="">
+                <span class="input-label signup white">City</span>
+                <input type="text" class="white" ng-model="person.city" placeholder="">
             </label>
-            <label class="item item-select item-input-curved" id="signUp-select1" name="University">
+            <label class="item item-select  item-input-curved" id="signUp-select1" name="University">
                 <span class="input-label white" >University</span>
                 <select ng-model="selectionValue" ng-options="option as option.name for option in options" ng-change="selectionChanged(selectionValue)">
                     <option value="" selected="selected">Select a option</option>
