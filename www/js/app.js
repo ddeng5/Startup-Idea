@@ -5,6 +5,8 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.controllers' is found in controllers.js
 angular.module('starter', ['ionic', 'starter.controllers','starter.services','firebase'])
+  
+
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -102,7 +104,8 @@ angular.module('starter', ['ionic', 'starter.controllers','starter.services','fi
       url: '/sell',
       views: {
         'menuContent': {
-          templateUrl: 'templates/sell.html'
+          templateUrl: 'templates/sell.html',
+          controller: 'SampleCtrl'
         }
       }
     })
@@ -135,3 +138,6 @@ angular.module('starter', ['ionic', 'starter.controllers','starter.services','fi
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app/login');
 });
+
+
+

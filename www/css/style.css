@@ -1,1 +1,126 @@
-/* Empty. Add your own CSS if you like */
+/* COLOURS */
+.white { color:white; }
+
+.cyan { color:#60A7A9; }
+
+.blue-retro { background-color: #3E4463; }
+
+.bg-red { background-color: #BF4B60; } /*  Main Sell Button Colour*/
+
+.bg-blue { background-color: #262A3F; } /* Dark Blue Colour (Header Bar) */
+
+.background {
+	background-color: #3E4463;
+}
+
+/* BUTTONS */
+.retro-button {
+	border-color: transparent;
+	color: #fff;
+	border-radius: 17px 17px 17px 17px;
+}
+
+.button.button-positive.retro.red {
+	border-color: transparent;
+	background-color: #BF4B60;
+	color: #fff;
+	border-radius: 17px 17px 17px 17px;
+	/*width:75%;*/
+}
+
+.button.button-positive.retro.cyan{
+	border-color: transparent;
+	background-color:#60A7A9;
+	color: #fff;
+	border-radius: 17px 17px 17px 17px;
+	/*width:75%;*/
+}
+
+.item {
+	border:0;
+	background-color: transparent;
+}
+
+.padding > .list .item:first-child {
+	border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.padding > .list .item:last-child {
+	border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.has-header {
+}
+
+.item-select select {
+	background:transparent;
+	color:#fff;
+}
+
+.item .item-content.activated {
+	background: rgba(255, 255, 255, 0.15);
+	border-color: rgba(255, 255, 255, 0.15);
+}
+.item.activated {
+	background: rgba(255, 255, 255, 0.15);
+	border-color: rgba(255, 255, 255, 0.15);
+}
+
+.range input {
+	background-size: 99% 5px;
+}
+
+.item-input-curved {
+	border-radius: 25px 25px 25px 25px;
+	background-color: #535A79;
+	margin:10px;
+}
+
+.input-label.signup {
+	width: 15%;
+}
+
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"] {
+  color: white;
+}
+
+
+textarea{
+  background-color: transparent;
+}
+
+.nav {
+	background-color: #3E4463;
+}
+
+.bar.bar-stable {
+	background-color: #262A3F;
+}
+
+.bar.bar-stable .title {
+	color:white;
+}
+
+.bar-stable .button.button-clear {
+	color:white;
+}
+
+.item-complex .item-content, .item-radio .item-content {
+	background-color: transparent;
+}
