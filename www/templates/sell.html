@@ -1,20 +1,28 @@
 <ion-view title="Page" id="page4" class="background">
-  <ion-content padding="true" class="has-header">
-    <form id="page3-form3" class="list ">
+  <ion-content padding="true" class="has-header" ng-controller="SampleCtrl">
+    <form id="page3-form3" class="list " ng-submit="addMessage()">
+
       <label class="item item-input item-input-curved " id="page3-textarea1">
-        <span class="input-label white">Selling</span><textarea placeholder=""></textarea>
+        <span class="input-label white">Selling</span><textarea placeholder="" ng-model="newSellingText"></textarea>
       </label>
+
       <label class="item item-input item-input-curved " id="page3-input1">
         <span class="input-label white">Asking Price</span>
-        <input type="number" placeholder="">
+        <input type="number" placeholder="" ng-model="newAskingPrice"/>
       </label>
-      <ion-item class="range white" id="page3-range1">Quality
-        <input type="range" value="5" min="0" max="10">
-      </ion-item>
+
+
+      <div class="range white" id="page3-range1">Quality
+        <input type="range" value="5" min="0" max="10" ng-model="newQualityNumber">
+      </div>
+
+
       <div style="margin: 0px; line-height: 250px; text-align: center; background-color: rgb(232, 235, 239);">
         <i class="icon ion-image" style="font-size: 64px; color: rgb(136, 136, 136); vertical-align: middle;"></i>
       </div>
+
+      <button id="page3-button4" class=" button button-positive retro button-block " type="submit">Sell</button>
+
     </form>
-    <button id="page3-button4" class=" button button-positive retro button-block ">Sell</button>
   </ion-content>
 </ion-view>
