@@ -58,6 +58,26 @@ angular.module('starter.controllers', [])
   })
 
 
+  .controller("SampleCtrl", function($scope, $firebaseArray) {
+    var ref = new Firebase("https://projectdamnndaniel.firebaseio.com/");
+
+    // create a synchronized array
+    $scope.messages = $firebaseArray(ref);
+
+    // add new items to the array
+    // the message is automatically added to our Firebase database!
+    $scope.addMessage = function() {
+      $scope.messages.$add({
+        product: $scope.newSellingText,
+        price: $scope.newAskingPrice,
+        quality: $scope.newQualityNumber
+      });
+    };
+
+    // click on `index.html` above to see $remove() and $save() in action
+  })
+
+
 
 
 .controller('PlaylistsCtrl', function($scope) {
